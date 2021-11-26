@@ -46,3 +46,8 @@ to either install it as a `pip` package if you have packaged your module,
 or mount it as described above, and edit the `setup/entrypoint.sh` to add
 that directory to the Python path, or edit the Dockerfile to add that
 directory to the Python path.
+
+## Install or build dependencies
+
+If you have dependencies which are not available on `pip`, it's possible
+to modify the `Dockerfile` to install them any way you like.
