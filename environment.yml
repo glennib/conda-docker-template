@@ -1,0 +1,14 @@
+name: conda_environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - ipykernel
+  - jupyter
+  - notebook
+  - jupyter_contrib_nbextensions
+  - nbconvert=5.6.1
+  - python=3.8.2
+  - pip
+  
