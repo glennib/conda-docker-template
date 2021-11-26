@@ -39,6 +39,10 @@ docker run \
 # snipped
 ```
 
+## `pip` dependencies
+
+Modify the `requirements.txt` file to add or change `pip` dependencies.
+
 ## Custom Python modules
 
 To work with custom Python modules, I recommend modifying the Dockerfile
