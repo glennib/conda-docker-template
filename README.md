@@ -2,6 +2,11 @@
 
 Template for running a conda/notebook server in a docker container.
 
+## Docker
+
+This repo requires Docker to run.
+Get Docker at https://docs.docker.com/get-docker/.
+
 ## Building
 
 A build script is provided, just run
