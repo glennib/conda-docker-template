@@ -9,7 +9,7 @@
 PORT=${1:-8888}
 
 docker run \
-  -i -t \
+  -t \
   -p "$PORT":"$PORT" \
   --mount type=bind,source="$(pwd)/workspace",target="/home/user/workspace" \
   my_conda_docker:latest \

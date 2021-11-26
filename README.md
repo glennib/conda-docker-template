@@ -31,7 +31,7 @@ Example:
 ```sh
 # snipped
 docker run \
-  -i -t \
+  -t \
   -p "$PORT":"$PORT" \
   --mount type=bind,source="/home/host_user/src/my_code",target="/home/user/workspace/my_code" \
   --mount type=bind,source="/home/host_user/src/my_library",target="/home/user/workspace/my_library" \
